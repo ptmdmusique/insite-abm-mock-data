@@ -1,31 +1,33 @@
                           OLS Regression Results                          
-Dep. Variable:   ,Preference      ,  R-squared (uncentered):     ,   0.995
-Model:           ,OLS             ,  Adj. R-squared (uncentered):,   0.994
-Method:          ,Least Squares   ,  F-statistic:                ,   1374.
-Date:            ,Sun, 01 Jun 2025,  Prob (F-statistic):         ,2.08e-73
-Time:            ,20:26:08        ,  Log-Likelihood:             , -115.55
-No. Observations:,    77          ,  AIC:                        ,   251.1
-Df Residuals:    ,    67          ,  BIC:                        ,   274.5
-Df Model:        ,    10          ,                              ,        
+Dep. Variable:   ,Preference      ,  R-squared (uncentered):     ,   0.999
+Model:           ,OLS             ,  Adj. R-squared (uncentered):,   0.998
+Method:          ,Least Squares   ,  F-statistic:                ,   4156.
+Date:            ,Wed, 04 Jun 2025,  Prob (F-statistic):         ,7.73e-89
+Time:            ,19:53:52        ,  Log-Likelihood:             , -64.965
+No. Observations:,    77          ,  AIC:                        ,   153.9
+Df Residuals:    ,    65          ,  BIC:                        ,   182.1
+Df Model:        ,    12          ,                              ,        
 Covariance Type: ,nonrobust       ,                              ,        
                 ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
-Power           ,   66.3876,    8.512,    7.799, 0.000,   49.397,   83.378
-Utility         ,   -0.2490,    0.068,   -3.641, 0.001,   -0.386,   -0.113
-Initial number  ,   -0.0082,    0.001,   -8.496, 0.000,   -0.010,   -0.006
-Acceptable range,   -0.0021,    0.001,   -2.472, 0.016,   -0.004,   -0.000
-Disruption      ,   -0.7787,    1.536,   -0.507, 0.614,   -3.845,    2.287
-Talk span       ,    0.0029,    0.001,    2.220, 0.030,    0.000,    0.005
-NGO message     ,   -0.1485,    0.176,   -0.844, 0.402,   -0.500,    0.203
-Sponsor message ,   -0.0720,    0.145,   -0.496, 0.621,   -0.362,    0.218
-Need            ,   -0.0739,    0.077,   -0.958, 0.342,   -0.228,    0.080
-Procedure       ,   -0.0143,    0.077,   -0.186, 0.853,   -0.168,    0.140
-Omnibus:      ,82.896,  Durbin-Watson:     ,   1.747 
-Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,1246.466 
-Skew:         , 3.043,  Prob(JB):          ,2.15e-271
-Kurtosis:     ,21.747,  Cond. No.          ,6.08e+04 
+Power           ,   85.2847,    7.797,   10.938, 0.000,   69.713,  100.856
+Utility         ,   -0.3947,    0.042,   -9.399, 0.000,   -0.479,   -0.311
+Proximity       ,  501.0372,   96.389,    5.198, 0.000,  308.535,  693.539
+Ideology        ,  -23.2784,    5.316,   -4.379, 0.000,  -33.895,  -12.662
+Initial number  ,   -0.0059,    0.001,  -10.831, 0.000,   -0.007,   -0.005
+Acceptable range,    0.0010,    0.001,    1.939, 0.057,-3.08e-05,    0.002
+Disruption      ,    0.0749,    0.816,    0.092, 0.927,   -1.555,    1.705
+Talk span       ,    0.0029,    0.001,    4.235, 0.000,    0.002,    0.004
+NGO message     ,    0.0217,    0.094,    0.231, 0.818,   -0.166,    0.209
+Sponsor message ,   -0.0327,    0.077,   -0.425, 0.672,   -0.186,    0.121
+Need            ,   -0.0183,    0.041,   -0.447, 0.657,   -0.100,    0.064
+Procedure       ,   -0.0529,    0.041,   -1.289, 0.202,   -0.135,    0.029
+Omnibus:      ,29.308,  Durbin-Watson:     ,   1.509
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  90.091
+Skew:         ,-1.126,  Prob(JB):          ,2.74e-20
+Kurtosis:     , 7.796,  Cond. No.          ,1.31e+06
 
 Notes:
 [1] R² is computed without centering (uncentered) since the model does not contain a constant.
 [2] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[3] The condition number is large, 6.08e+04. This might indicate that there are
+[3] The condition number is large, 1.31e+06. This might indicate that there are
 strong multicollinearity or other numerical problems.

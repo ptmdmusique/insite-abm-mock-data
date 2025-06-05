@@ -1,2 +1,2 @@
 Model:,Adj. R-squared (uncentered):,Dependent Variable:,AIC:,Date:,BIC:,No. Observations:,Log-Likelihood:,Df Model:,F-statistic:,Df Residuals:,Prob (F-statistic):,R-squared (uncentered):,Scale:
-OLS,0.994,Preference,251.1037,2025-06-01 20:26,274.5417,77,-115.55,10,1374.,67,2.08e-73,0.995,1.3533
+OLS,0.998,Preference,153.9305,2025-06-04 19:53,182.0561,77,-64.965,12,4156.,65,7.73e-89,0.999,0.37492
